@@ -1,0 +1,20 @@
+inoremap jj <Esc>
+inoremap JJ <Esc>
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap gs :action GotoSuperMethod<CR>
+nnoremap gi :action GotoImplementation<CR>
+nnoremap gb :action JumpToLastChange<CR>
+nnoremap U :action FindUsages<CR>
+nnoremap R :action RenameElement<CR>
+nnoremap == :action ReformatCode<CR>
+vnoremap == :action ReformatCode<CR>
+nnoremap ,e :action SearchEverywhere<CR>
+nnoremap ,g :action FindInPath<CR>
+nnoremap ,s :action FileStructurePopup<CR>
+nnoremap L $
+nnoremap H ^
+noremap ; :
+nnoremap ,a :action GotoAction<CR>
+vnoremap ,a :action GotoAction<CR>
+
+set ideajoin
